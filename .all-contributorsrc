@@ -1,0 +1,105 @@
+{
+  "projectName": "RecipeUI",
+  "projectOwner": "RecipeUI",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "dvtng",
+      "name": "Dave Tang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/617233?v=4",
+      "profile": "https://github.com/dvtng",
+      "contributions": [
+        "ideas",
+        "doc",
+        "mentoring"
+      ]
+    },
+    {
+      "login": "Julian",
+      "name": "Julian Berman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/329822?v=4",
+      "profile": "https://til.grayvines.com/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "rrevi",
+      "name": "Rafael Revi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1561054?v=4",
+      "profile": "http://rrevi.github.io",
+      "contributions": [
+        "plugin"
+      ]
+    },
+    {
+      "login": "bennycode",
+      "name": "Benny Neugebauer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/469989?v=4",
+      "profile": "http://bennycode.com",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "0x80085",
+      "name": "0x80085",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53451414?v=4",
+      "profile": "https://github.com/0x80085",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "Niwilai",
+      "name": "Niwilai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9334296?v=4",
+      "profile": "https://github.com/Niwilai",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "thomas-alrek",
+      "name": "Thomas Alrek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14291825?v=4",
+      "profile": "http://alrek.no",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "jinyus",
+      "name": "jinyus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30532952?v=4",
+      "profile": "https://github.com/jinyus",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "tim-goto",
+      "name": "Tim Häring",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116002362?v=4",
+      "profile": "https://github.com/tim-goto",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ashishrout-tech",
+      "name": "Ashish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77796540?v=4",
+      "profile": "https://github.com/ashishrout-tech",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "repoType": "github"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "outputs": [".next/**", "!.next/cache/**", ".svelte-kit/**"],
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "dependsOn": ["lint", "build"]
+    },
+    "lint": {},
+    "start": {
+      "dependsOn": ["test"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}

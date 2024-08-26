@@ -1,0 +1,15 @@
+
+
+> ui@0.0.0 lint /Users/xuanguyen/Workspaces/RecipeUI/packages/ui
+> eslint --ext .js,.jsx,.ts,.tsx .
+
+[0m[0m
+[0m[4m/Users/xuanguyen/Workspaces/RecipeUI/packages/ui/modules/NASA/index.tsx[24m[0m
+[0m  [2m72:15[22m  [33mwarning[39m  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m[0m
+[0m[4m/Users/xuanguyen/Workspaces/RecipeUI/packages/ui/modules/OpenAI/index.tsx[24m[0m
+[0m  [2m39:66[22m  [33mwarning[39m  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m  [2m39:73[22m  [33mwarning[39m  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m[0m
+[0m[33m[1m✖ 3 problems (0 errors, 3 warnings)[22m[39m[0m
+[0m[33m[1m[22m[39m[0m

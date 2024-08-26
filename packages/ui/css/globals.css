@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Making changes to this file for some reason is super slow */
+
+.cm-editor {
+  outline: none !important;
+}
+
+.mockup-code pre:before {
+  margin-right: 0 !important;
+}
+
+@layer base {
+  .recipe-md ul {
+    list-style: disc outside none;
+    @apply px-4 my-1;
+  }
+
+  .recipe-md a {
+    @apply text-blue-500;
+  }
+
+  .projects-home-container {
+    @apply flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 mt-4 gap-6;
+  }
+
+  .border-recipe-slate {
+    @apply border-slate-200 dark:border-slate-600;
+  }
+
+  body {
+    @apply bg-[#FAFAFA] dark:bg-base-100;
+  }
+
+  .code-snippet-onboarding {
+    @apply flex bg-slate-600 dark:bg-base-300  text-white rounded-md p-4 m-2;
+  }
+
+  .right-pane-bg {
+    @apply bg-gray-300 dark:bg-gray-700;
+  }
+}
+
+@layer utilities {
+  hr {
+    @apply h-0.5;
+  }
+
+  .recipe-hover {
+    @apply hover:drop-shadow-xl hover:border-blue-300;
+  }
+
+  .recipe-container-box {
+    @apply bg-white dark:bg-slate-800 cursor-pointer shadow-sm border border-slate-200 dark:border-slate-600 recipe-hover;
+  }
+}
+
+.cm-content {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  max-width: fit-content;
+  padding: 0.5rem 0;
+}

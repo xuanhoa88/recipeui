@@ -1,0 +1,25 @@
+{
+  "name": "recipeui",
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:docs": "turbo dev --filter=docs",
+    "launch:docs": "turbo run start --filter=docs",
+    "dev:web": "turbo dev --filter=web",
+    "launch:web": "turbo run start --filter=web",
+    "lint": "turbo lint",
+    "collections": "pnpm -C packages/collections cli",
+    "cleanup": "rimraf --glob **/node_modules",
+    "test": "pnpm -C packages/utils test -- --watch"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "6.26.1",
+    "bufferutil": "4.0.8",
+    "encoding": "0.1.13",
+    "eslint-config-recipeui": "workspace:*",
+    "rimraf": "5.0.10",
+    "turbo": "2.0.14",
+    "utf-8-validate": "5.0.10",
+    "ws": "8.18.0"
+  }
+}
